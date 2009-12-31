@@ -1,0 +1,16 @@
+This is a bug fix update of Buddy API.
+
+The following bugs were fixed:
+
+Opening the Buddy Help file did not work on some XP systems.
+baGetFolder did not set the initial directory correctly.
+baEncryptText would sometimes not encode the last character correctly.
+baTaskDialog did not set the correct lines for buttons 4 and 5.
+calling baFileDateEx more than 256 times caused a crash.
+baHideTaskbar did not hide the Start Button on Vista.
+The CopyProgress functions did not show an animation when requested.
+baSetDisplay and baSetDisplayEx did not return information when used in "test" mode.
+The CopyProgress functions did not work on Director 11.5 when using the callback option.
+The CopyProgress dialog would sometimes not close when copying from slow media and no files were found to copy.
+Using baSetWindowState with baWinHandle() on a full screen projector used the stage instead of the background window.
+
