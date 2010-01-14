@@ -1,3 +1,0 @@
-﻿on getConfig
-  return [ #maxUserPics: 10, #defaultPicsFolder: "DefaultPics", #userPicsFolder: "UserPics", #userPicsArchiveFolder: "Archive" ]
-end
